@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/fengtong/springCloudConfigRepo.git
+  application:
+    name: mcroservice-config-server
