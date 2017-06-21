@@ -1,1 +1,5 @@
-profile: profile-default
+spring:
+  profiles:
+    active: test
+server:
+  port: 8888
